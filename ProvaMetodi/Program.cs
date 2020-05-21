@@ -6,6 +6,7 @@ namespace ProvaMetodi
     {
         static void Main(string[] args)
         {
+
             string sensibile = ClasseBioInformatica.Metodi.LetturaSensibile();
             long lunghezzas = ClasseBioInformatica.Metodi.LunghezzaSensibile();
             Console.WriteLine(sensibile);
