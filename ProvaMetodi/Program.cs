@@ -11,7 +11,7 @@ namespace ProvaMetodi
             long lunghezzas = ClasseBioInformatica.Metodi.LunghezzaSensibile();
             Console.WriteLine(sensibile);
             Console.WriteLine("è lunga " + lunghezzas);
-            Console.WriteLine(".");
+            Console.WriteLine("."); 
             Console.WriteLine(".");
             Console.WriteLine(".");
             string resistente = ClasseBioInformatica.Metodi.LetturaResistente();
@@ -35,6 +35,7 @@ namespace ProvaMetodi
             int differenze = ClasseBioInformatica.Metodi.DifferenzeStringhe();
             Console.WriteLine("Le differenze sono : " + differenze);
             Console.ReadLine();
+
         }
     }
 }
