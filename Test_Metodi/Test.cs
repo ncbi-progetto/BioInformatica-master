@@ -13,6 +13,7 @@ namespace Test_Metodi
             long lunghezza = ClasseBioInformatica.Metodi.LunghezzaSensibile();
             Assert.AreEqual(lenght,lunghezza);
         }
+
         [TestMethod]
         public void TestLunghezzaresistente()//lunghezzaresistente
         {
@@ -21,6 +22,7 @@ namespace Test_Metodi
             long lunghezza = ClasseBioInformatica.Metodi.LunghezzaResistente();
             Assert.AreEqual(lenght, lunghezza);
         }
+
         [TestMethod]
         public void TestCaratterediverso()//Carartterediverso
         {
@@ -29,6 +31,7 @@ namespace Test_Metodi
             long lunghezza = ClasseBioInformatica.Metodi.CarattereDiverso();
             Assert.AreEqual(lenght, lunghezza);
         }
+
         [TestMethod]
         public void TestPozioneUguale()//PorzioneUguale
         {
@@ -37,6 +40,7 @@ namespace Test_Metodi
             string lunghezza = ClasseBioInformatica.Metodi.PorzioneUguale();
             Assert.AreEqual(Uguale, lunghezza);
         }
+
         [TestMethod]
         public void TestCaratteriDifferenti()//Numero caratteri differenti
         {

@@ -35,7 +35,6 @@ namespace ProvaMetodi
             int differenze = ClasseBioInformatica.Metodi.DifferenzeStringhe();
             Console.WriteLine("Le differenze sono : " + differenze);
             Console.ReadLine();
-
         }
     }
 }
